@@ -1597,7 +1597,7 @@ svg * {
   left: 0;
 }
 .reviews__rightBlock__bg img {
-  height: 594px;
+  height: 627px;
   z-index: 0;
 }
 .reviews__rightBlock__footer {
@@ -1616,6 +1616,34 @@ svg * {
   display: -ms-flexbox;
   display: flex;
   z-index: 10;
+}
+.reviews__rightBlock__footer__clients__client__1 {
+  z-index: 10;
+}
+.reviews__rightBlock__footer__clients__client__2 {
+  position: relative;
+  left: -10px;
+  z-index: 5;
+}
+.reviews__rightBlock__footer__clients__client__3 {
+  position: relative;
+  left: -20px;
+  z-index: 4;
+}
+.reviews__rightBlock__footer__clients__client__4 {
+  position: relative;
+  left: -30px;
+  z-index: 3;
+}
+.reviews__rightBlock__footer__clients__client__5 {
+  position: relative;
+  left: -40px;
+  z-index: 2;
+}
+.reviews__rightBlock__footer__clients__client__6 {
+  position: relative;
+  left: -50px;
+  z-index: 1;
 }
 .reviews__rightBlock__footer__clients__client__photo {
   display: -webkit-box;

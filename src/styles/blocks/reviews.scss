@@ -145,7 +145,7 @@
 			left: 0;
 
 			img {
-				height: 594px;
+				height: 627px;
 				z-index: 0;
 			}
 		}
@@ -160,6 +160,40 @@
 				z-index: 10;
 
 				&__client {
+					&__1 {
+						z-index: 10;
+					}
+
+					&__2 {
+						position: relative;
+						left: -10px;
+						z-index: 5;
+					}
+
+					&__3 {
+						position: relative;
+						left: -20px;
+						z-index: 4;
+					}
+
+					&__4 {
+						position: relative;
+						left: -30px;
+						z-index: 3;
+					}
+
+					&__5 {
+						position: relative;
+						left: -40px;
+						z-index: 2;
+					}
+
+					&__6 {
+						position: relative;
+						left: -50px;
+						z-index: 1;
+					}
+
 					&__photo {
 						display: flex;
 						justify-content: center;
