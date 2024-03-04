@@ -1,0 +1,120 @@
+.header {
+	padding: 16px 40px;
+
+	&__logo {
+		height: 40px;
+	}
+
+	&__inner {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__menu__list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		width: 497px;
+	}
+
+	&__menu__item {
+		font-family: var(--font-family);
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 100%;
+		letter-spacing: -0.02em;
+		color: var(--base-base-500);
+		white-space: nowrap;
+		cursor: pointer;
+		transition: 0.2s;
+		&:hover {
+			font-size: 16px;
+		}
+	}
+
+	&__menu__verticalBar {
+		width: 1px;
+		height: 40px;
+		background: rgba(217, 217, 217, 0.8);
+		margin-left: 10px;
+		margin-right: 13px;
+	}
+
+	&__buttons {
+		display: flex;
+		justify-content: end;
+		align-items: center;
+		column-gap: 16px;
+		margin-left: 133px;
+	}
+
+	&__burger {
+		width: 30px;
+		cursor: pointer;
+	}
+
+	@include desktop {
+		&__inner {
+			padding-top: 10px;
+			gap: 10px;
+		}
+
+		&__logo {
+			width: 65px;
+		}
+
+		&__menu {
+			&__list {
+				column-gap: 2vw;
+			}
+		}
+
+		&__buttons {
+			padding-left: 0;
+			margin-left: 0;
+			column-gap: 10px;
+
+			&__button {
+				width: 18vw;
+				height: 40px;
+				font-size: 14px;
+				white-space: nowrap;
+			}
+		}
+	}
+
+	@include tablet {
+		&__inner {
+			padding-top: 10px;
+			gap: 10px;
+		}
+
+		&__logo {
+			width: 65px;
+		}
+
+		&__menu {
+			&__list {
+				width: 380px;
+				column-gap: 0;
+			}
+
+			&__item {
+				font-size: 12px;
+			}
+		}
+
+		&__buttons {
+			flex-direction: column;
+			gap: 5px;
+			&__button {
+				width: 20vw;
+				height: 25px;
+				font-size: 10px;
+			}
+		}
+	}
+}

@@ -1,0 +1,61 @@
+@import 'mixins';
+
+body {
+	font-family: 'NunitoSans10pt-Regular';
+	color: var(--base-base-0);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+	transition-duration: var(--transition-duration);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	@include fluid-text(48, 28);
+	font-family: var(--second-family);
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+h2 {
+	@include fluid-text(40, 20);
+	font-family: var(--second-family);
+	font-weight: 700;
+	letter-spacing: -0.01em;
+}
+
+h3 {
+	@include fluid-text(32, 18);
+	font-family: var(--second-family);
+	font-weight: 700;
+	letter-spacing: -0.01em;
+}
+
+h4 {
+	@include fluid-text(24, 16);
+	font-family: var(--second-family);
+	font-weight: 700;
+	letter-spacing: -0.01em;
+}
+
+h5 {
+	@include fluid-text(20, 14);
+	font-family: var(--second-family);
+	letter-spacing: -0.01em;
+	font-weight: 700;
+}
+
+button {
+	cursor: pointer;
+	&:hover {
+		transform: scale(1.03);
+	}
+}

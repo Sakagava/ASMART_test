@@ -1,0 +1,112 @@
+.projectTarget {
+	padding-top: calc(var(--container-padding-y) * 2);
+
+	&__wrap {
+		position: relative;
+		display: flex;
+		overflow: hidden;
+		justify-content: space-between;
+		background-color: #df5858;
+		border-radius: var(--border-radius-large);
+		height: 541px;
+		width: 100%;
+	}
+
+	&__inner {
+		position: relative;
+		padding: 130px 60px;
+	}
+
+	&__text {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 629px;
+		gap: 24px;
+		text-align: center;
+
+		&__title {
+			width: 555px;
+			font-size: 40px;
+			line-height: 100%;
+		}
+
+		&__description {
+			width: 410px;
+			p {
+				font-size: 17px;
+				font-weight: 300;
+			}
+		}
+	}
+
+	&__bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 206px;
+	}
+
+	@include desktop {
+		&__text {
+			width: 470px;
+			&__title {
+				width: 463px;
+			}
+
+			&__description {
+				width: 460px;
+				p {
+					font-weight: 400;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+
+	@include tablet {
+		padding-top: 60px;
+
+		&__text {
+			align-items: flex-start;
+			text-align: left;
+
+			&__title h2 {
+				font-size: 30px;
+				line-height: 100%;
+			}
+		}
+
+		&__bg {
+			left: 200px;
+			top: -10px;
+		}
+	}
+
+	@include mobile {
+		&__wrap {
+			height: 290px;
+		}
+
+		&__inner {
+			width: 100%;
+			padding: 30px 20px;
+		}
+
+		&__text {
+			width: 100%;
+			&__title {
+				width: 100%;
+				h2 {
+					font-size: 20px;
+				}
+			}
+			&__description {
+				width: 100%;
+				p {
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}

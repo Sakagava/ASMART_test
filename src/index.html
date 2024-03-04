@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			,
+			user-scalable="no"
+			content="width=device-width, initial-scale=1.0"
+			,
+			maximum-scale="1.0, minimum-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./styles/styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__inner">
+				<img class="header__logo" src="./images/Logo.svg" />
+
+				<nav>
+					<ul class="header__menu__list hidden-mobile-xs">
+						<li><span class="header__menu__item">Все предметы</span></li>
+						<li><div class="header__menu__verticalBar"></div></li>
+
+						<li><span class="header__menu__item">О проекте</span></li>
+						<li><span class="header__menu__item">СМИ о нас</span></li>
+						<li><span class="header__menu__item">Отзывы</span></li>
+						<li><span class="header__menu__item">Контакты</span></li>
+					</ul>
+				</nav>
+
+				<div class="header__buttons hidden-mobile-xs">
+					<button class="header__buttons__button button-blueAccent-1000-medium">
+						Получить консультацию
+					</button>
+					<button class="header__buttons__button button-blueAccent-500-medium">
+						Вход в личный кабинет
+					</button>
+				</div>
+				<img
+					class="header__burger visible-mobile-xs"
+					src="./images/burger-menu.svg"
+					alt=""
+				/>
+			</div>
+		</header>
+		<main>
+			<section class="hero">
+				<div class="hero__main">
+					<div class="hero__body">
+						<div class="hero__title">
+							<h1>
+								Превратите учёбу для ребенка<br />
+								<span class="hero__title__accent"
+									>в увлекательное приключение</span
+								>
+							</h1>
+						</div>
+						<div class="hero__description">
+							<p class="font-body-1">
+								Подарите своему ребёнку яркое <br />и перспективное будущее —
+								выполняйте наши задания по конструированию и робототехнике
+							</p>
+						</div>
+						<button class="hero__button button-blueAccent-500-medium">
+							Перейти к заданиями
+						</button>
+					</div>
+				</div>
+				<div class="hero__bg hidden-tablet hidden-mobile hidden-mobile-xs">
+					<img src="./images/bg_hero/hero_bg.svg" alt="" />
+				</div>
+			</section>
+
+			<section class="features">
+				<div class="features__container container">
+					<header class="features__header">
+						<h2>
+							Развивайте творческое <br />
+							и логическое мышление ребёнка <br />
+							на онлайн-платформе
+						</h2>
+					</header>
+					<div class="features__dies__grid">
+						<div class="features__die__orange">
+							<div class="features__die__orange__body">
+								<div class="features__die__title">
+									<h3>Отслеживайте прогресс в личном кабинете</h3>
+								</div>
+								<div class="features__die__description font-body-3">
+									<p>
+										За каждый успешно пройденный раздел ребёнок получает
+										грамоту, а все результаты <br />
+										фиксируются в профиле
+									</p>
+								</div>
+							</div>
+							<div class="features__die__orange__img hidden-table">
+								<img src="./images/bgs_features/achievment.svg" />
+							</div>
+						</div>
+						<div class="features__die__blue">
+							<div class="features__die__blue__body">
+								<div class="features__die__title">
+									<h3>Создавайте аккаунт для каждого ребёнка</h3>
+								</div>
+								<div class="features__die__description font-body-3">
+									Добавляйте до 5 аккаунтов детей — каждый <br />
+									может заниматься индивидуально
+								</div>
+							</div>
+							<div class="features__die__blue__img hidden-table">
+								<img src="./images/bgs_features/kidsProfiles.svg" />
+							</div>
+						</div>
+						<div class="features__die__darkBlue">
+							<div class="features__die__darkBlue__body">
+								<div class="features__die__title">
+									<h3>Задания для всех возрастов</h3>
+								</div>
+								<div class="features__die__description font-body-3">
+									Выбирайте подходящую возрастную категорию: конкурсы рассчитаны
+									как на дошкольников, так и на ребят постарше
+								</div>
+							</div>
+							<div class="features__die__darkBlue__img hidden-table">
+								<img src="./images/bgs_features/selectAge.svg" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="allItems container">
+				<div class="allItems__header">
+					<h2>Предметы</h2>
+					<button class="button-blueAccent-500-medium">
+						Перейти ко всем предметам
+					</button>
+				</div>
+				<div class="allItems__wrap">
+					<div class="allItems__inner">
+						<div class="allItems__main">
+							<div class="allItems__main__header">
+								<div class="allItems__main__title">
+									<h3>Робототехника</h3>
+								</div>
+								<div class="allItems__main__description">
+									<p>6 разделов, 500+ заданий</p>
+								</div>
+							</div>
+
+							<div class="allItems__main__buttons">
+								<div class="allItems__main__buttons__upper">
+									<button
+										class="allItems__main__buttons__upper__button button-small"
+									>
+										Дошкольник
+									</button>
+									<button
+										class="allItems__main__buttons__upper__button button-small"
+									>
+										1 класс
+									</button>
+									<button
+										class="allItems__main__buttons__upper__button button-small"
+									>
+										2 класс
+									</button>
+									<button
+										class="allItems__main__buttons__upper__button button-small"
+									>
+										3 класс
+									</button>
+									<button
+										class="allItems__main__buttons__upper__button button-small"
+									>
+										4 класс
+									</button>
+								</div>
+								<div class="allItems__main__buttons__lower">
+									<button
+										class="allItems__main__buttons__lower__button button-small"
+									>
+										5 класс
+									</button>
+									<button
+										class="allItems__main__buttons__lower__button button-small"
+									>
+										6 класс
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<img
+						class="allItems__bg hidden-mobile-xs"
+						src="./images/allItems_bg/constructor.svg"
+					/>
+				</div>
+			</section>
+			<section class="projectTarget container">
+				<div class="projectTarget__wrap">
+					<div class="projectTarget__inner">
+						<div class="projectTarget__text">
+							<div class="projectTarget__text__title">
+								<h2>
+									Цель проекта – обеспечить детей возможностью развития
+									инженерных и конструкторских навыков
+								</h2>
+							</div>
+							<div class="projectTarget__text__description">
+								<p class="font-body-2">
+									Задания развивают интерес к конструированию, способствуют
+									улучшению инженерных навыков и позволяют найти свои сильные и
+									слабые места в знаниях робототехники 
+								</p>
+							</div>
+						</div>
+					</div>
+					<img
+						class="projectTarget__bg hidden-mobile-xs"
+						src="./images/projectTarget/child.svg"
+						alt=""
+					/>
+				</div>
+			</section>
+			<section class="reviews container">
+				<div class="reviews__inner">
+					<div class="reviews__leftBlock">
+						<div class="reviews__leftBlock__text">
+							<div class="reviews__leftBlock__text__title">
+								<h3>12 000+ учеников уже занимаются на платформе</h3>
+							</div>
+							<div class="reviews__leftBlock__text__description">
+								<p class="font-body-2">
+									Выбирайте подходящую возрастную категорию: задания рассчитаны
+									как на дошкольников, так и на ребят постарше
+								</p>
+							</div>
+						</div>
+
+						<img
+							class="hidden-mobile-xs"
+							src="./images/reviews/childs.svg"
+							alt=""
+						/>
+						<button class="reviews__leftBlock__button">
+							Перейти к заданиям
+						</button>
+					</div>
+					<div class="reviews__rightBlock">
+						<div class="reviews__rightBlock__body">
+							<div class="reviews__rightBlock__body__die">
+								<img src="./images/reviews/woman.svg" alt="" />
+								<div class="reviews__rightBlock__body__die__text">
+									<p>Директор академического лицея</p>
+									<h4>Валентина Валериевна</h4>
+								</div>
+							</div>
+							<div class="reviews__rightBlock__body__text">
+								<div class="reviews__rightBlock__body__text__title">
+									<h3>«Четверка, а не тройка как в предыдущие годы!»</h3>
+								</div>
+
+								<div class="reviews__rightBlock__body__text__description">
+									<p>
+										«В нашей школе учителя с удовольствием принимают участие в
+										олимпиадах Учи.ру. Ребятам нравится олимпиада „Плюс“,
+										„Дино-олимпиада“. Это хорошая репетиция перед Московской и
+										Всероссийской олимпиадами. Дети уже с начальной школы
+										готовятся к олимпиадному движению»
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="reviews__rightBlock__footer">
+							<div
+								class="reviews__rightBlock__footer__clients hidden-mobile-xs"
+							>
+								<div class="reviews__rightBlock__footer__clients__client">
+									<div
+										class="reviews__rightBlock__footer__clients__client__photo"
+									>
+										<img src="./images/reviews/woman.svg" alt="" />
+									</div>
+								</div>
+								<div class="reviews__rightBlock__footer__clients__client">
+									<div
+										class="reviews__rightBlock__footer__clients__client__photo"
+									>
+										<img
+											class="grayscale"
+											src="./images/reviews/woman.svg"
+											alt=""
+										/>
+									</div>
+								</div>
+								<div class="reviews__rightBlock__footer__clients__client">
+									<div
+										class="reviews__rightBlock__footer__clients__client__photo"
+									>
+										<img
+											class="grayscale"
+											src="./images/reviews/woman.svg"
+											alt=""
+										/>
+									</div>
+								</div>
+								<div class="reviews__rightBlock__footer__clients__client">
+									<div
+										class="reviews__rightBlock__footer__clients__client__photo"
+									>
+										<img
+											class="grayscale"
+											src="./images/reviews/woman.svg"
+											alt=""
+										/>
+									</div>
+								</div>
+								<div class="reviews__rightBlock__footer__clients__client">
+									<div
+										class="reviews__rightBlock__footer__clients__client__photo"
+									>
+										<img
+											class="grayscale"
+											src="./images/reviews/woman.svg"
+											alt=""
+										/>
+									</div>
+								</div>
+								<div class="reviews__rightBlock__footer__clients__client">
+									<div
+										class="reviews__rightBlock__footer__clients__client__photo"
+									>
+										<img
+											class="grayscale"
+											src="./images/reviews/woman.svg"
+											alt=""
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="reviews__rightBlock__footer__buttons">
+								<button class="reviews__rightBlock__footer__buttons__button">
+									<img src="./images/reviews/arrow_left.svg" alt="" />
+								</button>
+								<button class="reviews__rightBlock__footer__buttons__button">
+									<img src="./images/reviews/arrow_right.svg" alt="" />
+								</button>
+							</div>
+						</div>
+						<div class="reviews__rightBlock__bg hidden-table">
+							<img src="./images/reviews/bg.svg" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="aboutUs container">
+				<div class="aboutUs__header">
+					<h2>СМИ о нас</h2>
+				</div>
+				<div class="aboutUs__wrap">
+					<div class="aboutUs__review">
+						<img src="./images/aboutUs/lenta.svg" alt="" />
+						<div class="aboutUs__review__author">
+							<div class="aboutUs__review__author__title">
+								<a href="">lenta.ru</a>
+								<p>20.02.2023</p>
+							</div>
+							<div class="aboutUs__review__author__description">
+								<p>
+									Как учителя используют сервис РобикКлик для развития навыков
+									школьников
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="aboutUs__review">
+						<img src="./images/aboutUs/трамплин.svg" alt="" />
+						<div class="aboutUs__review__author">
+							<div class="aboutUs__review__author__title">
+								<a href="">Трамплин</a>
+								<p>18.02.2023</p>
+							</div>
+							<div class="aboutUs__review__author__description">
+								<p>
+									Как помочь ребенку быстро влиться в учебный процесс после
+									каникул — отвечают методисты «РобикКлик»
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="aboutUs__review">
+						<img src="./images/aboutUs/омскИнформ.svg" alt="" />
+						<div class="aboutUs__review__author">
+							<div class="aboutUs__review__author__title">
+								<a href="">ОмскИнформ</a>
+								<p>16.02.2023</p>
+							</div>
+							<div class="aboutUs__review__author__description">
+								<p>
+									Как привить у ребёнка интерес к робототехнике — мнение
+									экспертов «РобикКлик»
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__wrap">
+				<div class="footer__inner">
+					<div class="footer__links">
+						<div class="footer__links__socials">
+							<a href=""><img src="./images/footer/logo.svg" alt="" /></a>
+							<a href=""><img src="./images/footer/vk.svg" alt="" /></a>
+						</div>
+						<div class="footer__links__documents">
+							<a class="footer__links__documents__requisites" href=""
+								><span>Реквизиты</span></a
+							>
+							<a class="footer__links__documents__contractOffer" href=""
+								><span>Договор оферты</span></a
+							>
+							<a class="footer__links__documents__termsOfUse" href=""
+								><span>Пользовательское соглашение</span></a
+							>
+							<a class="footer__links__documents__license" href=""
+								><span
+									>Лицензия на осуществление образовательной деятельности</span
+								></a
+							>
+							<a class="footer__links__documents__privacyPolicy" href=""
+								><span>Политика конфиденциальности</span></a
+							>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<div class="footer__contacts__wrap">
+							<div class="footer__contacts__contact">
+								<p>Электронная почта</p>
+								<h3>mail@robikklik.ru</h3>
+							</div>
+							<div class="footer__contacts__contact">
+								<p>Номер телефона</p>
+								<h3>+7 (888) 888 88 88</h3>
+							</div>
+						</div>
+						<div class="footer__contacts__contact__ASMART">
+							<p>Сайт создан в IT-company ASMART</p>
+						</div>
+					</div>
+				</div>
+				<img
+					class="footer__bg__img hidden-mobile-xs"
+					src="./images/footer/stain.svg"
+					alt=""
+				/>
+			</div>
+		</footer>
+	</body>
+</html>
